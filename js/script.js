@@ -397,3 +397,11 @@ function crearPDFCotizacion()
     doc.save('Cotizacion'+fecha+'_'+horas+minutos+segundos+milisegundos+'.pdf');
  
 };
+
+
+function staffMostrar() {
+
+    document.getElementById("staff").style.display = "block";
+
+
+};
