@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Manejo de fuentes instalada localmente */
 /*@import url('./fonts/FasterOne-Regular.ttf');*/
 @font-face {
@@ -270,12 +271,14 @@ form {
 .texto-impact {
     font-family:Impact;
     font-style: oblique;
-    color: #333/*#1d1b1b*/;
-    letter-spacing: 0.15em;
+    color: #333;
+    
+    object-fit: cover;
 }
 
 .texto-impact-titulo-plan {
-    font-size: 40px;
+    font-size: 30px;
+    /*letter-spacing: 0.15em;*/
 }
 
 .texto-impact-descripcion-plan {
@@ -313,9 +316,10 @@ form {
 .gymasociarse{
     padding: 10px;
     object-fit: cover;
-    width: 210px;
-    height:265px;
+    width: 100%;
+    height: 265%;
     border-radius: 20px;
+    float: center;
     filter: drop-shadow(10px  10px 10px #333 );
 }
 
@@ -345,8 +349,18 @@ form {
 
 
 /* Formulario de Contacto  */
+
+
+
 #contacto{
     background: linear-gradient(360deg,rgba(253, 135, 29,1) 0%,rgba(92, 2, 2) 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    justify-content:flex-start; /* space-between;*/
+    padding: 1rem;
 }
 
 
@@ -363,6 +377,8 @@ form {
     /*margin-left: 8rem;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
+    text-align: left;
+    
 }
 
 /* estilo campo del formulario */
@@ -382,10 +398,11 @@ form {
     /*margin-left: 7em;
     padding: 0.3125em;
     float: left;
+    
    
     
     */
-    width: 80%;
+    width: 95%;
     height: auto;
     border-radius: 0.625em;
     background-color: rgb(249, 212, 198);
@@ -433,7 +450,7 @@ form {
     /*margin-left: 8.5rem;*/
     font-size: 80%;
     color: #fefefe;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 
@@ -444,6 +461,8 @@ form {
 
 
 /* FOOTER */
+
+
 .footer {
     background-color:  #C60808;
     text-align: center;
