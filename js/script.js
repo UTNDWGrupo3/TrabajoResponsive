@@ -239,28 +239,26 @@ function validoFrmContacto() {
     if (frmContacto.nombre.value == "") {
         frmContacto.nombre.style.backgroundColor = "#f89696";
         alert("Complete el campo nombre");
-        
-        
         resultado = "ERR";
-        
+   /*     
     } else  if (frmContacto.apellido.value == "") {
         frmContacto.apellido.style.backgroundColor = "#f89696";
         alert("Complete el campo apellido");
         resultado = "ERR";
-
-   /* } else if (frmContacto.edad.value == "") {
+  */
+    } else if (frmContacto.edad.value == "") {
         frmContacto.edad.style.backgroundColor = "#f89696";
         alert("Complete el campo edad");
         resultado = "ERR";
-    */    
+       
     } else  if (frmContacto.email.value == "") {
         frmContacto.email.style.backgroundColor = "#f89696";
         alert("Complete el campo email");
         resultado = "ERR";
-    } else  if (frmContacto.telefono.value == "") {
+    /*} else  if (frmContacto.telefono.value == "") {
         frmContacto.telefono.style.backgroundColor = "#f89696";
         alert("Complete el campo telefono");
-        resultado = "ERR";    
+        resultado = "ERR";    */
     } else if (frmContacto.comentario.value == "") {
 
         frmContacto.comentario.style.backgroundColor = "#f89696";
@@ -317,7 +315,11 @@ function crearPDF()
         apellido = "No especificado";
     }
      
+    if (telefono =="") {
+        telefono = "No especificado";
+    }
     
+
     var doc = new jsPDF();
     
     let y = 10;

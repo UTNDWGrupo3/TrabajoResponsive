@@ -381,10 +381,11 @@ form {
     /*margin-left: 8.5rem;*/
 }
 
-.envio-margin-left{
+.envio-margin-left1{
     display: flex;
     justify-content: center; 
-   /* margin-left: 1em;*/
+    
+    
 }
 
 
