@@ -232,6 +232,11 @@ form {
 }
 
 
+.sombra-planes {
+    box-shadow: 5px 5px 15px gray;
+}
+
+
 #step-1 {
 
 
@@ -243,6 +248,11 @@ form {
     color:antiquewhite;
 
 }
+
+.texto-margin-step1-1 {
+    text-align: left;
+}
+
 
 #summary {
     border-radius: 22px;
@@ -291,8 +301,10 @@ form {
     
     font-size: 80%;
     color: #333;
-    text-align: left;
+    
 }
+
+
 
 /* fin control formulario de dos pasos */
 
