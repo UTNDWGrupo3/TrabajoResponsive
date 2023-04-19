@@ -19,7 +19,7 @@ const step2 = document.querySelector("#step-2");
 const summary = document.querySelector("#summary");
 
 
-
+let clic = 1;
 
 
 
@@ -400,8 +400,25 @@ function crearPDFCotizacion()
 
 
 function staffMostrar() {
+     
+   
+    /*if (document.getElementById("btnMasAcercaNosotros").textContent = "Más acerca de nosotros")*/
+    if (clic == 1 ) 
+    {
+        
+        document.getElementById("staff").style.display = "block"; 
+        document.getElementById("btnMasAcercaNosotros").innerHTML = "Menos acerca de nosotros";
+        clic += 1;
+    } else {
+        
+        document.getElementById("staff").style.display = "none"; 
+        
+        document.getElementById("btnMasAcercaNosotros").innerHTML = "Más acerca de nosotros";
+        clic = 1;
 
-    document.getElementById("staff").style.display = "block";
+    }    
+
+   
 
 
 };

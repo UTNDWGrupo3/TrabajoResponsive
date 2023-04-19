@@ -530,6 +530,12 @@ form {
 }
 
 
+.texto-staff-desarrollo {
+
+    font-size: 100%;
+    color : #fefefe;
+}
+
 /* FIN STAFF */
 
 .footer {
@@ -567,4 +573,9 @@ hr {
 .logo-footer{
     height: 50px;
     padding-top: 20px;
+}
+
+.texto-copywrite {
+    font-size: 75%;
+    color : #fefefe;
 }
