@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* Manejo de fuentes instalada localmente */
 /*@import url('./fonts/FasterOne-Regular.ttf');*/
 @font-face {
@@ -18,20 +17,13 @@
     margin-left: 40px;
 }
 
-
 .nombrefasterOne-40{
     font-family: 'Faster One', cursive;
     font-size: 40px;
     margin-left: 40px;
 }
 
-
-
-
-
 /* Header */
-
-
 .img-circle-logo {
     background: rgb(240, 163, 56, 0.7);
     border-radius: 50%;
@@ -41,7 +33,6 @@
     z-index: 1;   /* ordena los elementos por acoplamiento */
 }
 
- 
 .header {
     color: white;
 }
@@ -55,7 +46,6 @@
     align-items: left;
     justify-content: end;
 }
-
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,7 +61,6 @@ body {
     float: left;
     margin-left: 30px;
 }
-
 
 /* estilo de los botones */
 .btn {
@@ -98,8 +87,6 @@ body {
     transform: translateY(4px);
     color: #FFF;
 }
-
-
 
 /* Main */
 
@@ -130,7 +117,7 @@ body {
 .slider img {          
    width: 100%;
     height: 500px;
-    object-fit: cover;    /* la imagen se ajusta al tamaño del padre */
+    object-fit: cover; /* la imagen se ajusta al tamaño del padre */
 }
 
 /* controla los estilos de los parrafos debajo de cada foto del slider */
@@ -179,7 +166,6 @@ body {
     transition: 3s;
 }
 
-
 .imagen-hover-gris:hover{
     filter: drop-shadow(20px  20px 20px #333 )  grayscale(0%) ;
     transition: 3s;
@@ -188,7 +174,6 @@ body {
 .imagen-hover-gris-sombra:hover{
     filter: drop-shadow(20px  20px 20px #333 )  grayscale(80%) ;
 }
-
 
 .img-rectangular-bordes-redondeados {
     width:80%;
@@ -231,28 +216,21 @@ form {
     color: #333;
 }
 
-
 .sombra-planes {
     box-shadow: 5px 5px 15px gray;
 }
 
-
 #step-1 {
-
-
-
     border:3px solid orange;
     border-radius: 22px;
     background-color:  rgba(63, 61, 61, 0.15);
     text-align: center; 
     color:antiquewhite;
-
 }
 
 .texto-margin-step1-1 {
     text-align: left;
 }
-
 
 #summary {
     border-radius: 22px;
@@ -261,7 +239,6 @@ form {
     color: #333;
     padding: 10px;
 }
-
 
 #plan-seleccionado-step1{
     color:  #333;
@@ -274,6 +251,7 @@ form {
     font-size: 7px;
     font-weight: bold;
 }
+
 .texto-impact-seleccionado-label {
     font-size: 25px;
 }
@@ -282,43 +260,32 @@ form {
     font-family:Impact;
     font-style: oblique;
     color: #333;
-    
     object-fit: cover;
 }
 
 .texto-impact-titulo-plan {
     font-size: 30px;
-    /*letter-spacing: 0.15em;*/
 }
 
 .texto-impact-descripcion-plan {
     font-size: 20px;
 }
 
- 
-
 .texto-step1-1 {
-    
     font-size: 80%;
     color: #333;
-    
 }
 
-
-
 /* fin control formulario de dos pasos */
-
 
 /*Asociarse*/
 #asociarse{
     padding-bottom: 7px;
 }
 
-
 .texto-p-333{
     font-size: 25px;
 }
-
 
 /*Asociarse*/
 #asociarse{
@@ -359,10 +326,7 @@ form {
     color:antiquewhite;
 }
 
-
 /* Formulario de Contacto  */
-
-
 
 #contacto{
     background: linear-gradient(360deg,rgba(253, 135, 29,1) 0%,rgba(92, 2, 2) 100%);
@@ -375,22 +339,18 @@ form {
     padding: 1rem;
 }
 
-
 .conta{
-   /* margin-left: 16.6rem;*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-weight: bold;
     color: #fff;
 }
 
-
 .refe{
     /*margin-left: 8rem;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
-    text-align: left;
-    
+    text-align: left;    
 }
 
 /* estilo campo del formulario */
@@ -406,32 +366,14 @@ form {
 
 /* estilo campo comentario */
 .ingreso1{
-
-    /*margin-left: 7em;
-    padding: 0.3125em;
-    float: left;
-    
-   
-    
-    */
     width: 95%;
     height: auto;
     border-radius: 0.625em;
     background-color: rgb(249, 212, 198);
     box-shadow: 8px 8px 13px #333;
     cursor: pointer;
-
- 
 }
 
-/*.conta{
-    margin-left: 16.6rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: #fff;
-}
-*/
 .ingresos:hover{
     box-shadow: 6px 6px 10px rgb(0, 0, 0, 0.3);  
     transition: box-shadow 0.3s ease;
@@ -447,16 +389,12 @@ form {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    /*margin-left: 8.5rem;*/
 }
 
 .envio-margin-left1{
     display: flex;
     justify-content: center; 
-    
-    
 }
-
 
 .texto-contacto-1 {
     /*margin-left: 8.5rem;*/
@@ -465,46 +403,34 @@ form {
     text-align: left;
 }
 
-
 .ancla  {
     padding-top: 190px; /* es el ancho de mi cabecera fija, para que no se tape el contenido debajo de la cabecera */
 }
 
-
-
-
 /* FOOTER */
-
 
 /* STAFF */
 
-
 #staff {
-
     display: none;
 }
-
 
 .img-circle-staff {
     background: rgb(240, 163, 56, 0.7);
     border-radius: 50%;
     filter: drop-shadow(20px  20px 20px #333 );
     object-fit: cover;
-    
     filter: grayscale(100%);
     width:10em;
     height:10em;
 }
 
 .img-sobre-correo-staff {
-    
-    
     filter: drop-shadow(20px  20px 20px #333 );
     object-fit: cover;
     width:2em;
     height:2em;
 }
-
 
 .img-circle-staff:hover{
     filter: grayscale(0%) ;
@@ -533,14 +459,11 @@ form {
     box-shadow: 10px 10px 20px #333;
 }
 
-
 .espacio {
     padding-left: 15px;
 }
 
-
 .texto-staff-desarrollo {
-
     font-size: 100%;
     color : #fefefe;
 }
